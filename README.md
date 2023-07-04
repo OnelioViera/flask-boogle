@@ -1,2 +1,1 @@
-# Boggle
-# flask-boogle
+# Flask Boggle
