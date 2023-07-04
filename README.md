@@ -1,6 +1,5 @@
 # Flask - Boggle
 
----
 
 ## JavaScript and Python
 
