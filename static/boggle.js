@@ -51,7 +51,7 @@ class BoggleGame {
     }
 
     // check server for validity
-    const resp = await axios.get("/check-word", { params: { word: word }});
+    const resp = await axios.get("/check-word", { params: { word: word } });
     if (resp.data.result === "not-word") {
       this.showMessage(`${word} is not a valid English word`, "err");
     } else if (resp.data.result === "not-on-board") {
